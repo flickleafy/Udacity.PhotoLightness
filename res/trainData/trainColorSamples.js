@@ -1,4 +1,4 @@
-const colorSamples =
+const trainColorSamples =
     [
         { input: { h: 0.602, s: 0.52, l: 0.75 }, output: { light: 1 } }, // hsl(217, 52%, 75%)
         { input: { h: 0.472, s: 0.77, l: 0.48 }, output: { light: 1 } }, // hsl(170, 77%, 48%)        
@@ -13,5 +13,5 @@ const colorSamples =
     ]
 
 module.exports = {
-    colorSamples,
+    trainColorSamples
 }
